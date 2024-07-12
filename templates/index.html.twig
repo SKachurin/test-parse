@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Image Parser{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}
+
+{% block body %}
+    <div id="app">
+        <image-parser></image-parser>
+        <image-info></image-info>
+        <image-container></image-container>
+    </div>
+{% endblock %}
